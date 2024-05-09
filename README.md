@@ -18,6 +18,9 @@ npm start
 
 Tutorial:
 https://github.com/AbeerGandhi/Assignment-2-MERN/assets/147911425/aaf733e1-d7d1-484d-a90e-232e6560b1c3
+https://github.com/AbeerGandhi/Assignment-2-MERN/assets/147911425/07a4cc16-5bd7-43cc-a8f9-60f52102b993
+
+
 
 
 
