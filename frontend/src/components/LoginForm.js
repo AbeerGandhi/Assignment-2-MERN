@@ -1,109 +1,4 @@
-// import React, { useState } from 'react';
-
-// const LoginForm = ({ onLogin }) => {
-//   const [email, setEmail] = useState('');
-//   const [password, setPassword] = useState('');
-//   const [error, setError] = useState('');
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-    
-//     onLogin(email, password);
-    
-//     setEmail('');
-//     setPassword('');
-//   };
-
-//   return (
-//     <div style={styles.container}>
-//       <h2 style={styles.heading}>Login</h2>
-//       <form onSubmit={handleSubmit}>
-//         <table style={styles.table}>
-//           <tbody>
-//             <tr style={styles.row}>
-//               <td style={styles.cell}><label htmlFor="email">Email:</label></td>
-//               <td style={styles.cell}><input
-//                 type="email"
-//                 id="email"
-//                 value={email}
-//                 onChange={(e) => setEmail(e.target.value)}
-//                 style={styles.input}
-//                 required 
-//                 pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-//                 title="Please enter a valid email address"
-//               /></td>
-//             </tr>
-//             <tr style={styles.row}>
-//               <td style={styles.cell}><label htmlFor="password">Password:</label></td>
-//               <td style={styles.cell}><input
-//                 type="password"
-//                 id="password"
-//                 value={password}
-//                 onChange={(e) => setPassword(e.target.value)}
-//                 style={styles.input}
-//                 required
-//               /></td>
-//             </tr>
-//             <tr>
-//               <td colSpan="2" style={styles.error}>{error && <div>{error}</div>}</td>
-//             </tr>
-//             <tr style={styles.row}>
-//               <td colSpan="2" style={{ textAlign: 'center', padding: '10px' }}><button type="submit" style={styles.button}>Login</button></td>
-//             </tr>
-//           </tbody>
-//         </table>
-//       </form>
-//     </div>
-//   );
-// };
-
-// const styles = {
-//   container: {
-//     maxWidth: '400px',
-//     margin: '0 auto',
-//     padding: '20px',
-//     borderRadius: '5px',
-//     boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)',
-//     backgroundColor: '#fff',
-//   },
-//   heading: {
-//     textAlign: 'center',
-//     marginBottom: '20px',
-//     fontSize: '24px',
-//     color: '#333',
-//   },
-//   table: {
-//     width: '100%',
-//     borderCollapse: 'collapse',
-//   },
-//   row: {
-//     backgroundColor: '#f5f5f5',
-//   },
-//   cell: {
-//     padding: '10px',
-//   },
-//   input: {
-//     width: '100%',
-//     padding: '8px',
-//     borderRadius: '5px',
-//     border: '1px solid #ccc',
-//     boxSizing: 'border-box',
-//   },
-//   error: {
-//     color: 'red',
-//     textAlign: 'center',
-//   },
-//   button: {
-//     padding: '10px 20px',
-//     backgroundColor: '#007bff',
-//     color: '#fff',
-//     border: 'none',
-//     borderRadius: '5px',
-//     cursor: 'pointer',
-//   },
-// };
-
-// export default LoginForm;
+//Abeer Gandhi
 import React, { useState } from 'react';
 import ProtectedPage from './ProtectedPage';
 
@@ -132,7 +27,7 @@ const LoginForm = () => {
     
     if (email && password) {
       setSignedUpUsers([...signedUpUsers, { email, password }]);
-      setIsLoggedIn(true); // Automatically log in after signing up
+      setIsLoggedIn(true); 
       setEmail('');
       setPassword('');
       setError('');
