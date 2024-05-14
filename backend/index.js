@@ -7,7 +7,7 @@ const User = require('./models/User');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const MONGODB_URI = 'mongodb+srv://abeergandhi2:eldorado2.0@cluster0.nv6llvj.mongodb.net/';
+const MONGODB_URI = 'mongodb+srv://abeergandhi2:<password>@cluster0.nv6llvj.mongodb.net/';
 
 app.use(bodyParser.json());
 
