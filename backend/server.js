@@ -8,7 +8,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-mongoose.connect('mongodb+srv://abeergandhi2:eldorado2.0@cluster0.nv6llvj.mongodb.net/', {
+mongoose.connect('mongodb+srv://abeergandhi2:<password>@cluster0.nv6llvj.mongodb.net/', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true, 
